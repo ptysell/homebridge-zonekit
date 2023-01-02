@@ -1,5 +1,5 @@
 {
-    "pluginAlias": "homebridge-VirtualDevicePlatform",
+    "pluginAlias": "VirtualDevicePlatform",
     "pluginType": "platform",
     "singular": false,
     "schema": {
