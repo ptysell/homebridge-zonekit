@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-zonekit",
+  "name": "homebridge-VirtualDevicePlatform",
   "version": "0.0.1",
   "description": "Virtural Device Platform",
   "license": "ISC",
