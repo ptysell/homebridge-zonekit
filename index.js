@@ -37,10 +37,10 @@ VirtualDevicePlatform.prototype = {
 			// 	this.devices[index]);
 			// foundAccessories.push(accessorySwitch);
 
-      var accessoryAction  = new VirtualDeviceAccessoryAction(
-				this.log,
-				this.devices[index],accessory);
-			foundAccessories.push(accessoryAction);
+      // var accessoryAction  = new VirtualDeviceAccessoryAction(
+			// 	this.log,
+			// 	this.devices[index],accessory);
+			// foundAccessories.push(accessoryAction);
 		}
     var accessorygroup  = new VirtualDeviceAccessoryGroup(
         this.log,
