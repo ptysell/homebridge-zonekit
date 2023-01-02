@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-zonekit",
+  "version": "0.0.1",
+  "description": "Virtural Device Platform",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ptysell/homebridge-zonekit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ptysell/homebridge-zonekit/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "node-persist": "^2.1.0"
+  }
+}

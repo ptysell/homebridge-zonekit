@@ -1,0 +1,29 @@
+{
+    "pluginAlias": "homebridge-virtual-device-platform",
+    "pluginType": "platform",
+    "singular": false,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true
+                },
+            "devices": {
+                "type": "array",
+                "items": {
+                    "title": "Accessory",
+                    "type": "object",
+                    "properties": {
+                        "name" : {
+                          "title" : "Name",
+                          "type" : "string",
+                          "required" : true
+                        }
+                    }
+                }
+            }
+            }
+        }
+    }
