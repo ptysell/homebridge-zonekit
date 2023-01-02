@@ -8,7 +8,7 @@ module.exports = function(homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
   HomebridgeAPI = homebridge;
-  homebridge.registerPlatform("homebridge-virtual-device-platform", "VirtualDevicePlatform", VirtualDevicePlatform);
+  homebridge.registerPlatform("homebridge-zonekit", "VirtualDevicePlatform", VirtualDevicePlatform);
 
 }
 
