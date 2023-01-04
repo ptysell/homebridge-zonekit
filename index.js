@@ -8,7 +8,7 @@ module.exports = function(homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
   HomebridgeAPI = homebridge;
-  homebridge.registerPlatform("ZoneKit", "ZoneKit", ZoneKit);
+  homebridge.registerPlatform("Homebridge-ZoneKit", "ZoneKit", ZoneKit);
 
 }
 
@@ -56,7 +56,7 @@ function ZoneKitAccessory(log, device) {
 	 this._service = new Service.Lightbulb(this.name + ' Accessory');
 
    var light1 = new Service.Lightbulb("Light 1","1light");
-   var light2 = new Service.Lightbulb("Light 2","2light"); 
+   var light2 = new Service.Lightbulb("Light 2","2light");
 
 
   this.informationService = new Service.AccessoryInformation();
