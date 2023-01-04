@@ -1,5 +1,5 @@
 {
-    "pluginAlias": "VirtualDevicePlatform",
+    "pluginAlias": "homebridge-zonekit",
     "pluginType": "platform",
     "singular": false,
     "schema": {
